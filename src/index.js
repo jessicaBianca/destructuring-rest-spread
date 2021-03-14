@@ -43,8 +43,8 @@ function doDestructuring(){
     const firstElement = people.results[0]
 
    /* É muito repetitivo fazer da forma abaixo
-    const username = firtsElement.login.username
-    const password = firtsElement.login.password
+    const username = firstElement.login.username
+    const password = firstElement.login.password
     */
 
     //Usando o destructuring:
