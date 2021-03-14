@@ -40,7 +40,7 @@ function infiniteSum(...numbers){
 //usar com arrays
 
 function doDestructuring(){
-    const firtsElement = people.results[0]
+    const firstElement = people.results[0]
 
    /* É muito repetitivo fazer da forma abaixo
     const username = firtsElement.login.username
@@ -48,7 +48,7 @@ function doDestructuring(){
     */
 
     //Usando o destructuring:
-    const {username, password} = firtsElement.login
+    const {username, password} = firstElement.login
 
     console.log(username)
     console.log(password)
