@@ -30,7 +30,7 @@ function doRest(){
 function infiniteSum(...numbers){
     return numbers.reduce((acumulador, numeroAtual)=> acumulador+numeroAtual, 0)
     /*
-        O número 0 no final indica que vai começar em 0 e depois ir somando todos os números que forem colocamos
+        O número 0 no final indica que vai começar em 0 e depois ir somando todos os números que forem colocados
         como parâmetro
         console.log(numbers)  //traz um array [ ]
     */ 
